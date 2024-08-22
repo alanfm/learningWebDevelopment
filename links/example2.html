@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br'">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+
+        a#google:visited, a#google:link {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a#google:hover, a#google:active {
+           background-color: pink;
+        }
+        div {
+            border: 2px solid #000000;
+        }
+        #div1 {
+            padding-left: 2rem;
+            padding-bottom: 10px;
+        }
+        #div2 {
+            margin-top: 3%;
+            margin-left: 2%;
+        }
+    </style>
+</head>
+<body>
+    <a href="example1.html">Voltar</a>
+    <a href="//google.com" id="google">Google</a>
+    <div id="div1">Conteúdo Div 1</div>
+    <div id="div2">Texto Div 2</div>
+</body>
+</html>
