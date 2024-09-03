@@ -1,0 +1,17 @@
+/* Falar sobre o meu CSS */
+body {
+    background-color: lightcoral;
+}
+
+.bg1 {
+    background-image: url("../imgs/css-2.png");
+    background-color: #fff;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
+
+.bg2 {
+    background-color: rgba(200, 180, 150, 1);
+}
