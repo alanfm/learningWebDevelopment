@@ -6,7 +6,9 @@ body {
 .bg1 {
     background-image: url("../imgs/css-2.png");
     background-color: #fff;
-    height: 1000px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 500px;
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
