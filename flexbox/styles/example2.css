@@ -1,0 +1,36 @@
+.flex-container {
+    width: 100vw;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 0 20px 0 20px;
+    background-color: rgb(28, 121, 158);
+    font-size: 100px;
+    color: white;
+}
+
+.box-1 {
+    order: 1;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+
+.box-2 {
+    order: 2;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}
+
+.box-3 {
+    order: 3;
+    /* flex-grow: 3; */
+}
+
+.box-4 {
+    order: 4;
+    /* flex-grow: 5; */
+}
