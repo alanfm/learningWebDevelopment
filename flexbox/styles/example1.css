@@ -1,18 +1,20 @@
 .flex-container {
+    background-color: aqua;
     width: 100vw;
     height: 70vh;
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
     /* flex-wrap: wrap; */
     flex-flow: row wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
 }
 
-.flex-container .box {
+.box {
     margin: 10px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: burlywood;
     font-size: 100px;
 }
